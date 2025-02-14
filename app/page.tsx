@@ -63,8 +63,8 @@ export default function App() {
       </header>
 
       {/* Centered Tang Cat-themed container */}
-      <main className="flex-1 flex justify-center items-center relative z-10">
-        <div className="grid grid-cols-3 gap-8 px-4">
+      <main className="flex-1 flex justify-center items-center">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-4">
           <div className="rounded-2xl shadow-lg bg-blue-200 bg-opacity-50 p-6 transform transition-all hover:scale-105 hover:shadow-xl">
             <Earn vaultAddress="0x7BfA7C4f149E7415b73bdeDfe609237e29CBF34A" />
           </div>
@@ -76,6 +76,8 @@ export default function App() {
           </div>
         </div>
       </main>
+
+
 
       {/* Footer with Tang Cat Branding */}
       <footer className="py-4 text-center text-sm text-gray-600 relative z-10">
